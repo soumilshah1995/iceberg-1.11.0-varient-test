@@ -102,7 +102,6 @@ Negative % = shred faster.
 | **Best shred gains** | Numeric aggs on `$.id` (−52 to −53%), string/date filters (−43 to −50%) |
 | **Only shred loss** | `FILTER_LEVEL12` on `$.payload.commits` (+44%) — nested array / complex branch |
 | **Storage** | +20% bytes for typed sub-columns |
-| **vs Snowflake** | Spark read win is broad; Snowflake catalog-linked reads were ≈ tie (query-specific) |
 
 ---
 
